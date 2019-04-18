@@ -1,0 +1,28 @@
+.paginator ul{
+    display: block;
+    list-style-type: none;
+}
+.paginator ul li{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.pagination li.active, .disabled{
+    background-color: #db974b;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 7px;
+}
+.paginator ul li a{
+    color: #155015;
+    background-color: #f4e1bb;
+    border: 1px solid #db974b;
+    padding: 5px 10px;
+    margin: 7px;
+}
+.paginator ul li a:hover{
+    text-decoration: none;
+    background-color: #db974b;
+    color: #fff;
+}
